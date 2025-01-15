@@ -1,5 +1,5 @@
 body {
-    background: rgb(174, 131, 225);
+    background: rgb(0, 0, 0);
     color: rgb(45, 45, 45);
     padding: 10px;
     font-family: Arial, sans-serif;
@@ -12,7 +12,7 @@ body {
 
 /* navigation menu */
 nav {
-    background: rgb(245, 248, 25);
+    background: rgb(255, 140, 1);
     margin: 0 auto;
     display: flex;
     padding: 10px;
@@ -21,7 +21,7 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     flex: 1;
     margin: 0;
 }
@@ -40,14 +40,16 @@ h1 {
 
 a {
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
 }
 
 /* main container area beneath menu */
 main {
-    background: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
     display: flex;
     margin-top: 20px;
+    border-style: solid;
+    border-width: 5px;
 }
 
 .sidebar {
@@ -56,7 +58,7 @@ main {
 }
 
 .sidebar-img {
-    width: 200px;
+    width: 500px;
 }
 
 .content {
@@ -72,5 +74,9 @@ main {
 }
 
 h2, h3 {
-    margin: 0px;
+    color: rgb(255, 255, 255);
+}
+
+p {
+    color: rgb(255, 255, 255);
 }

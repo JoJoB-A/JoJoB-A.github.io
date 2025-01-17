@@ -12,7 +12,7 @@ body {
 
 /* navigation menu */
 nav {
-    background: rgb(255, 140, 1);
+    background: rgb(0, 0, 0);
     margin: 0 auto;
     display: flex;
     padding: 10px;
@@ -79,4 +79,11 @@ h2, h3 {
 
 p {
     color: rgb(255, 255, 255);
+}
+
+span {
+    background: orange;
+    color: black;
+    padding: 4px;
+    border-radius: 4px;
 }

@@ -27,21 +27,24 @@ $(function () {
     //////////////////////////////////
 
     // TODO 1 - Enable the Grid
-    toggleGrid();
-
+    //toggleGrid();
 
     // TODO 2 - Create Platforms
-
-
-
+    createPlatform(200, 600, 300, 20);
+    for (i = 0; i < 5; i++) {
+      createPlatform(600 + (i * 150), 600 - (i * 25), 20, 10);
+    }
 
     // TODO 3 - Create Collectables
-
-
-
+    for (i = 0; i < 4; i++) {
+      createCollectable("lebron", 600 + (i * 150), 450 - (i * 25));
+    }
     
     // TODO 4 - Create Cannons
-
+    for (i = 0, increment = 0; i < 9; i++) {
+      createCannon("top", 1475 - increment, 900);
+      increment += 150;
+    }
 
     
     

@@ -42,7 +42,7 @@ $(function () {
     
     // TODO 4 - Create Cannons
     for (i = 0, increment = 0; i < 9; i++) {
-      createCannon("top", 1475 - increment, 900);
+      createCannon("top", 1475 - increment, 1000);
       increment += 150;
     }
 
